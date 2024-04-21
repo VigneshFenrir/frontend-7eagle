@@ -1,0 +1,18 @@
+.data {
+    transition: 200ms;
+}
+
+.navbar-nav {
+    background-color: papayawhip;
+    padding: 5px;
+}
+
+.rounded-5>li {
+    transition: 200ms;
+}
+
+.rounded-5>li:hover {
+    background-color: white;
+    border-radius: 20px;
+
+}

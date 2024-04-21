@@ -1,0 +1,65 @@
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 66px;
+    left: 0;
+    background-color: #824b7caa;
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+    transition: 1000ms;
+
+
+
+    .aside-icon {
+        position: absolute;
+        right: 20px;
+        top: 22px;
+        /* transition: 1000ms; */
+
+    }
+
+    aside {
+        >a {
+            text-decoration: none;
+            color: #343a40;
+            display: block;
+            padding: 5px;
+            padding-bottom: 5px;
+            background-color: antiquewhite;
+        }
+
+
+
+
+
+    }
+}
+
+
+
+.hovering>li {
+    transition: 200ms;
+    padding: 10px;
+}
+
+.hovering>li :hover {
+    background-color: paleturquoise;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.left {
+    left: -100%
+}
+
+li {
+    color: #343a40;
+}
+
+li {
+    a {
+        text-decoration: none;
+        color: #343a40
+    }
+}
